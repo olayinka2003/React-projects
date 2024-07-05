@@ -10,7 +10,7 @@ export const FormSplitBill = ({selctedFriend, onSplitBill}) => {
     e.preventDefault();
 
     if(!bill || !expense) return;
-    onSplitBill(payer=== "user" ? paidByFriend : - expense)
+    onSplitBill(payer=== "user" ? paidByFriend : -expense)
 
   }
   return (
