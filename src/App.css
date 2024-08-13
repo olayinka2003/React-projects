@@ -167,3 +167,26 @@ form h2 {
   letter-spacing: -0.5px;
   margin-bottom: 1.6rem;
 }
+
+@media (max-width: 750px) {
+  body {
+    width: 100%;
+    height: 150vh;
+    color: #495057;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .app {
+    min-height: 66vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: start;
+  }
+  /* .form-split-bill {
+    grid-template-columns: 1fr 12rem;
+    padding: 2rem 2.5rem;
+  } */
+}
